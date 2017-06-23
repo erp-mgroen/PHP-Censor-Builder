@@ -1,0 +1,24 @@
+{
+    "name": "erp-mgroen/php-censor-builder",
+    "description": "PHP Censor builder",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "erp-mgroen",
+            "email": "john.doe.jtg@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "PHPCensor\\Model\\Build": "src"
+        }
+    },
+    "extra": {
+        "phpci": {
+            "pluginNamespace": "PHPCensor\\Model\\Build"
+        }
+    }
+}
