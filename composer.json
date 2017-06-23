@@ -13,12 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-          "PHPCensor\\Model\\Build": "src"
+          "PHPCensor\\Model\\Build\\": "src"
         }
     },
     "extra": {
         "phpci": {
-            "pluginNamespace": "PHPCensor\\Model\\Build"
+            "pluginNamespace": "PHPCensor\\Model\\Build\\"
         }
     }
 }
